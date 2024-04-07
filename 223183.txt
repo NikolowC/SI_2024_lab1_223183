@@ -1,0 +1,52 @@
+  501  cd desktop
+  502  mkdir SI_2024_lab1_223183
+  503  cd SI_2024_lab1_223183/
+  504  git init
+  505  git remote add origin https://github.com/NikolowC/SI_2024_lab1_223183.git
+  506  git branch -M master
+  507  nano README.md
+  508  git add README.md
+  509  git commit -m "Initial commit"
+  510  git add *.java
+  511  git commit -m "Add starter code"
+  512  git push -u origin master
+  513  git branch bug1
+  514  git branch bug2
+  515  git checkout bug1
+  516  code .
+  517  git add SILab1_1.java
+  518  git commit -m "Fix wrong condition in filterOddLengthStrings"
+  519  git checkout bug2
+  520  code .
+  521  git add SILab1_2.java
+  522  git commit -m "Fix wrong condition in makeBigStringFrom"
+  523  git checkout bug1
+  524  code .
+  525  git add SILab1Main.java
+  526  git commit -m "Call method filterOddLengthStrings in main class"
+  527  git checkout bug2
+  528  code .
+  529  git add SILab1Main.java
+  530  git commit -m "Call method makeBigStringFrom in main class"
+  531  git push -u origin master
+  532  git push -u origin bug1
+  533  git push -u origin bug2
+  534  git checkout master
+  535  git merge bug1
+  536  git push -u origin master
+  537  git checkout bug2
+  538  git rebase master
+  539  code .
+  540  git add *.java
+  541  git rebase --continue
+  542  git checkout master
+  543  git log
+  544  git merge bug2
+  545  git log
+  546  git push -u origin master
+  547  git push -u origin bug1
+  548  git push -u origin bug2
+  549  git push --force origin bug2
+  550  git log
+  551  nano logs.txt
+  552  history

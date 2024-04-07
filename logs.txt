@@ -1,0 +1,36 @@
+commit 91a8ccc6ac5196126979703563b499a6413ad9f6 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Cvetan Nikolov <nikolovcvetan@yahoo.com>
+Date:   Sun Apr 7 17:01:14 2024 +0200
+
+    Call method makeBigStringFrom in main class
+    asd
+
+commit a3928c656dbf8ab9283a37332e1a2862a0baca27
+Author: Cvetan Nikolov <nikolovcvetan@yahoo.com>
+Date:   Sun Apr 7 16:58:27 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 5f018aa3df8e3424aae9eaba32385b295677f02d (origin/bug1, bug1)
+Author: Cvetan Nikolov <nikolovcvetan@yahoo.com>
+Date:   Sun Apr 7 17:00:03 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 7f9fc9f6d13bc4a2796d506b0f0f32757ba4e34b
+Author: Cvetan Nikolov <nikolovcvetan@yahoo.com>
+Date:   Sun Apr 7 16:57:18 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 3d8c9e8b6942ee5a7fd6c698c5b74523f55d8452
+Author: Cvetan Nikolov <nikolovcvetan@yahoo.com>
+Date:   Sun Apr 7 16:54:49 2024 +0200
+
+    Add starter code
+
+commit f447503c4826418138305d6f23c690d2a987c9e9
+Author: Cvetan Nikolov <nikolovcvetan@yahoo.com>
+Date:   Sun Apr 7 16:53:49 2024 +0200
+
+    Initial commit
